@@ -26,3 +26,43 @@ function slide() {
 //executar o 'slide' td vez q a window for executada
 window.addEventListener("load", slide);
 
+const salesPlans = {
+    "motos": {
+        "show": true,
+        "title": "Para motos",
+        "icon":[
+            {
+                "show": true,
+                "title": "Para motos"
+            }, 
+            {
+                "show": true,
+                "title": "Para motos"
+            },
+        ]
+    },
+    "carros": {
+        "show": true,
+        "title": "Para motos",
+        "icon":[
+            {
+                "show": true,
+                "title": "Para motos"
+            }, 
+            {
+                "show": true,
+                "title": "Para motos"
+            },
+        ]
+    }
+}
+console.log(salesPlans.motos[icon])
+
+const obj = {
+    "column01": "Coluna 01",
+    "column02": "Coluna 02"
+  };
+  
+  for (const [key, value] of Object.entries(obj)) {
+    console.log(key + ' ' + value);
+  }
